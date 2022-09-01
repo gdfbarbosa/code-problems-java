@@ -3,7 +3,7 @@ package io.gdfbarbosa.algorithms;
 /**
  * Find pivot index in array.
  *
- * <a href="http://www.codinghorror.com/blog/2007/12/sorting-for-humans-natural-sort-order.html">
+ * <a href="https://leetcode.com/problems/find-pivot-index/">Problem Description</a>
  */
 public class FindPIvotIndex {
     public int pivotIndex(int[] nums) {
