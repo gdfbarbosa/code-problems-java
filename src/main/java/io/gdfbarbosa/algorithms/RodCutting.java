@@ -3,7 +3,11 @@ package io.gdfbarbosa.algorithms;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CutRod {
+/**
+ * Rod Cutting algorithm as seen in "Introduction to Algorithms", 3rd edition (CLRS).
+ * Alternative with memoization for optimized performance.
+ */
+public class RodCutting {
     Map<Integer, Integer> mapResults = new HashMap<>();
     public int cutRod(Integer[] prices, int n) {
         if (n == 0) { // base case

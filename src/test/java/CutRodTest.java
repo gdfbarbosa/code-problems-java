@@ -1,4 +1,4 @@
-import io.gdfbarbosa.algorithms.CutRod;
+import io.gdfbarbosa.algorithms.RodCutting;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,7 +15,7 @@ public class CutRodTest {
         prices = list.toArray(new Integer[0]);
     }
 
-    static CutRod cutRod = new CutRod();
+    static RodCutting cutRod = new RodCutting();
 
     @Test
     public void cutRod1() {
