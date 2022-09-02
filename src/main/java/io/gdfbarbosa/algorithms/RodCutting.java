@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class RodCutting {
     Map<Integer, Integer> mapResults = new HashMap<>();
-    public int cutRod(Integer[] prices, int n) {
+    public int cutRod(int[] prices, int n) {
         if (n == 0) { // base case
             return 0;
         }
