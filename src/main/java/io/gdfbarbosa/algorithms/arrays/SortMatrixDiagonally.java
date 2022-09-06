@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+/**
+ * <a href="https://leetcode.com/problems/sort-the-matrix-diagonally/">1329. Sort the Matrix Diagonally</a>
+ */
 public class SortMatrixDiagonally {
     public int[][] diagonalSort(int[][] mat) {
         int m = mat.length; int n = mat[0].length;

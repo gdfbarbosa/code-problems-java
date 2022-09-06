@@ -3,7 +3,7 @@ package io.gdfbarbosa.algorithms.arrays;
 /**
  * Find pivot index in array.
  *
- * <a href="https://leetcode.com/problems/find-pivot-index/">Problem Description</a>
+ * <a href="https://leetcode.com/problems/find-pivot-index/">724. Find Pivot Index</a>
  */
 public class FindPIvotIndex {
     public int pivotIndex(int[] nums) {

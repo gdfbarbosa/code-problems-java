@@ -4,6 +4,9 @@ import io.gdfbarbosa.algorithms.math.MathPow;
 
 import java.util.TreeSet;
 
+/**
+ * <a href="https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/">363. Max Sum of Rectangle No Larger Than K</a>
+ */
 public class MaxSumRectangleLessThankK {
     public int maxSumSubmatrix(int[][] matrix, int k) {
         int m = matrix.length, n = matrix[0].length;
