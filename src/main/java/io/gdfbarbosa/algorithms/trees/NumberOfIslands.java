@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.trees;
 
+/**
+ * <a href="https://leetcode.com/problems/number-of-islands/">200. Number of Islands</a>
+ */
 public class NumberOfIslands {
     public int numIslands(char[][] grid) {
         int count = 0;
