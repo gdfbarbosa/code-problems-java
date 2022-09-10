@@ -3,7 +3,10 @@ package io.gdfbarbosa.algorithms.strings;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MorseCode {
+/**
+ * <a href="https://leetcode.com/problems/unique-morse-code-words/">804. Unique Morse Code Words</a>
+ */
+public class UniqueMorseCodeWords {
     public static String[] morseCodes = new String[]{".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
 
     public int uniqueMorseRepresentations(String[] words) {
