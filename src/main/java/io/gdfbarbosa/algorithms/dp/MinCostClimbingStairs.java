@@ -1,8 +1,9 @@
 package io.gdfbarbosa.algorithms.dp;
 
-import io.gdfbarbosa.algorithms.math.MathPow;
-
-public class MinCostClimbingStars {
+/**
+ * <a href="https://leetcode.com/problems/min-cost-climbing-stairs/">746. Min Cost Climbing Stairs</a>
+ */
+public class MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int first = cost[0];
