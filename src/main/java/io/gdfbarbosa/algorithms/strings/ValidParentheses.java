@@ -1,8 +1,9 @@
 package io.gdfbarbosa.algorithms.strings;
 
-import java.util.Stack;
-
-public class ValidParenthesis {
+/**
+ * <a href="https://leetcode.com/problems/valid-parentheses/">20. Valid Parentheses</a>
+ */
+public class ValidParentheses {
     public boolean isValid(String s) {
         char[] stack = new char[s.length()];
         int head = 0;
