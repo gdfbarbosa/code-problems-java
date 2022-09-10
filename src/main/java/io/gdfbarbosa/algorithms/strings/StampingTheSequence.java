@@ -3,6 +3,9 @@ package io.gdfbarbosa.algorithms.strings;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <a href="https://leetcode.com/problems/stamping-the-sequence/">936. Stamping The Sequence</a>
+ */
 public class StampingTheSequence {
     public int[] movesToStamp(String stamp, String target) {
         char[] S = stamp.toCharArray();

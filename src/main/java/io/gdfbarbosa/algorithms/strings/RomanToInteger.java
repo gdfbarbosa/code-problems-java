@@ -2,6 +2,9 @@ package io.gdfbarbosa.algorithms.strings;
 
 import java.util.Map;
 
+/**
+ * <a href="https://leetcode.com/problems/roman-to-integer/">13. Roman to Integer</a>
+ */
 public class RomanToInteger {
     public int romanToInteger(String s) {
         Map<String, Integer> romanToIntMap = Map.of(
