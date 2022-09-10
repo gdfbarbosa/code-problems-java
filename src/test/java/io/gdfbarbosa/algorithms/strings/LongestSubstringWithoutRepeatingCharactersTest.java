@@ -3,7 +3,7 @@ package io.gdfbarbosa.algorithms.strings;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class LongestSubstringTest {
+public class LongestSubstringWithoutRepeatingCharactersTest {
     @Test()
     public void testString1() {
         LongestSubstringWithoutRepeatingCharacters longestSubstring = new LongestSubstringWithoutRepeatingCharacters();
