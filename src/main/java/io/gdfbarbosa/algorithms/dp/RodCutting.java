@@ -1,7 +1,5 @@
 package io.gdfbarbosa.algorithms.dp;
 
-import io.gdfbarbosa.algorithms.math.MathPow;
-
 import java.util.HashMap;
 import java.util.Map;
 
