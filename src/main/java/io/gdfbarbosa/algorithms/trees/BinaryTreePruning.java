@@ -2,6 +2,7 @@ package io.gdfbarbosa.algorithms.trees;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-pruning/">814. Binary Tree Pruning</a>
+ * Solution by hiepit.
  */
 public class BinaryTreePruning {
     public TreeNode pruneTree(TreeNode root) {

@@ -1,7 +1,5 @@
 package io.gdfbarbosa.algorithms.arrays;
 
-import io.gdfbarbosa.algorithms.math.MathPow;
-
 import java.util.TreeSet;
 
 /**
