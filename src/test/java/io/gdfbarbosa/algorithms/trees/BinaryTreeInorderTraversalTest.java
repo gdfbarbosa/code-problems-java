@@ -3,14 +3,14 @@ package io.gdfbarbosa.algorithms.trees;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class InorderTreeTraversalTest {
+public class BinaryTreeInorderTraversalTest {
     @Test
     public void test1() {
         TreeNode root = new TreeNode(5);
         root.left =  new TreeNode(2);
         root.right =  new TreeNode(7);
 
-        InorderTreeTraversal inorderLevelTraversal = new InorderTreeTraversal();
+        BinaryTreeInorderTraversal inorderLevelTraversal = new BinaryTreeInorderTraversal();
         Assert.assertArrayEquals(new Integer[]{2, 5, 7}, inorderLevelTraversal.inorderTraversal(root).toArray(new Integer[1]));
     }
 
@@ -22,7 +22,7 @@ public class InorderTreeTraversalTest {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
 
-        InorderTreeTraversal inorderLevelTraversal = new InorderTreeTraversal();
+        BinaryTreeInorderTraversal inorderLevelTraversal = new BinaryTreeInorderTraversal();
         Assert.assertArrayEquals(new Integer[]{4, 2, 5, 1, 3}, inorderLevelTraversal.inorderTraversal(root).toArray(new Integer[1]));
     }
 }

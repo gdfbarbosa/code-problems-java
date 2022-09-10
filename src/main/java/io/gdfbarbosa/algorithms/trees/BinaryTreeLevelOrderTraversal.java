@@ -8,7 +8,7 @@ import java.util.List;
  * Breadth-First or Level Order Traversal.
  * <a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">102. Binary Tree Level Order Traversal</a>
  */
-public class LevelOrderTreeTraversal {
+public class BinaryTreeLevelOrderTraversal {
     // Breath First Search is faster without queue
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
