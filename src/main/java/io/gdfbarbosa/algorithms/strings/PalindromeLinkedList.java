@@ -1,6 +1,9 @@
 package io.gdfbarbosa.algorithms.strings;
 
-public class PalindromeLInkedList {
+/**
+ * <a href="https://leetcode.com/problems/palindrome-linked-list/">234. Palindrome Linked List</a>
+ */
+public class PalindromeLinkedList {
     public static class ListNode {
         public int val;
         public ListNode next;
