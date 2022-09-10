@@ -1,8 +1,8 @@
 package io.gdfbarbosa.algorithms.dp;
 
-import io.gdfbarbosa.algorithms.dp.FibonacciIterative;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class FibonacciIterativeTest {
     @Test

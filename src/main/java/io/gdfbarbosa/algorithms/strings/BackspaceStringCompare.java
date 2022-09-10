@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.strings;
 
+/**
+ * <a href="https://leetcode.com/problems/backspace-string-compare/">844. Backspace String Compare</a>
+ */
 public class BackspaceStringCompare {
     public boolean backspaceCompare(String s, String t) {
         return getString(s).equals(getString(t));

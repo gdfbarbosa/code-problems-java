@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.strings;
 
+/**
+ * <a href="https://leetcode.com/problems/longest-palindrome/">409. Longest Palindrome</a>
+ */
 public class LongestPalindrome {
     public String longestPalindrome(String s) {
         String longest = "";

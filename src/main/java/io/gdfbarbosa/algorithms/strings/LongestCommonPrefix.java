@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.strings;
 
+/**
+ * <a href="https://leetcode.com/problems/longest-common-prefix/">14. Longest Common Prefix</a>
+ */
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0)

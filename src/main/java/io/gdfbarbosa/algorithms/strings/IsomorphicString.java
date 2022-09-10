@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.strings;
 
+/**
+ * <a href="https://leetcode.com/problems/isomorphic-strings/">205. Isomorphic Strings</a>
+ */
 public class IsomorphicString {
     public boolean isIsomorphic(String s, String t) {
         int[] m1 = new int[256];

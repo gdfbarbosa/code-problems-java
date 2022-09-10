@@ -1,11 +1,12 @@
 package io.gdfbarbosa.algorithms.strings;
 
-import io.gdfbarbosa.algorithms.math.MathPow;
-
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubstring {
+/**
+ * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">3. Longest Substring Without Repeating Characters</a>
+ */
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int i = 0, j = 0, max = 0;
         Set<Character> set = new HashSet<>();

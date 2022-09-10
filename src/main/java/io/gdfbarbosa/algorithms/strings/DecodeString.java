@@ -1,7 +1,8 @@
 package io.gdfbarbosa.algorithms.strings;
 
-import java.util.Stack;
-
+/**
+ * <a href="https://leetcode.com/problems/decode-string/">394. Decode String</a>
+ */
 public class DecodeString {
     int i = 0;
     public String decodeString(String s) {
