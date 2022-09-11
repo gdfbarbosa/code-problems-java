@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.math;
 
+/**
+ * <a href="https://leetcode.com/problems/powx-n/">50. Pow(x, n)</a>
+ */
 public class PowXN {
     public double myPow(double x, int n) {
         long N = n;
