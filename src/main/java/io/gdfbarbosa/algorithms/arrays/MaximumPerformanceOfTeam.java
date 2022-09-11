@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * <a href="https://leetcode.com/problems/maximum-performance-of-a-team/">1383. Maximum Performance of a Team</a>
  *
- * <a href="https://leetcode.com/problems/maximum-performance-of-a-team/discuss/539687/JavaC%2B%2BPython-Priority-Queue">Solution Credits: hiepit</a>
+ * <a href="https://leetcode.com/problems/maximum-performance-of-a-team/discuss/539687/JavaC%2B%2BPython-Priority-Queue">Solution Credits: lee215</a>
  */
 public class MaximumPerformanceOfTeam {
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
