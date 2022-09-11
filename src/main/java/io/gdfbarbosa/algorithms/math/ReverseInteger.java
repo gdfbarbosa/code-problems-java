@@ -1,6 +1,9 @@
 package io.gdfbarbosa.algorithms.math;
 
-public class ReverseInt {
+/**
+ * <a href="https://leetcode.com/problems/reverse-integer/">7. Reverse Integer</a>
+ */
+public class ReverseInteger {
     public int reverse(int x) {
         int sign = x < 0 ? -1 : 1;
         x = Math.abs(x);
