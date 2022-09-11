@@ -2,6 +2,9 @@ package io.gdfbarbosa.algorithms.math;
 
 import java.util.Arrays;
 
+/**
+ * <a href="https://leetcode.com/problems/reordered-power-of-2/">869. Reordered Power of 2</a>
+ */
 public class ReorderedPowerOfTwo {
     public int reorderedPowerOf2(int N) {
         int[] A = count(N);
