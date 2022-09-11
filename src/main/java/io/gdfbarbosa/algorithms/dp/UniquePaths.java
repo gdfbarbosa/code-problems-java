@@ -1,5 +1,8 @@
 package io.gdfbarbosa.algorithms.dp;
 
+/**
+ * <a href="https://leetcode.com/problems/unique-paths/">62. Unique Paths</a>
+ */
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
         int[][] map = new int[m][n];
