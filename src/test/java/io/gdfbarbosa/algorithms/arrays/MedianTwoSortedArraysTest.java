@@ -1,6 +1,5 @@
 package io.gdfbarbosa.algorithms.arrays;
 
-import io.gdfbarbosa.algorithms.dp.MedianTwoSortedArrays;
 import org.junit.Assert;
 import org.junit.Test;
 

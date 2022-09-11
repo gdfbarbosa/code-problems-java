@@ -1,7 +1,10 @@
-package io.gdfbarbosa.algorithms.dp;
+package io.gdfbarbosa.algorithms.arrays;
 
 import java.util.Arrays;
 
+/**
+ * <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">4. Median of Two Sorted Arrays</a>
+ */
 public class MedianTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i = nums1.length;
