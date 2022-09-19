@@ -25,4 +25,5 @@ public class ValidateBinarySearchTreeTest {
         ValidateBinarySearchTree validateBinarySearchTree = new ValidateBinarySearchTree();
         assertFalse(validateBinarySearchTree.isValidBST(root));
     }
+
 }
