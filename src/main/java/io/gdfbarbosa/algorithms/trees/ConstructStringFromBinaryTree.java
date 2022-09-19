@@ -4,6 +4,7 @@ package io.gdfbarbosa.algorithms.trees;
  * <a href="https://leetcode.com/problems/construct-string-from-binary-tree/">606. Construct String from Binary Tree</a>
  */
 public class ConstructStringFromBinaryTree {
+
     StringBuilder val = new StringBuilder();
     public String tree2str(TreeNode root) {
         if (root == null) return "";
