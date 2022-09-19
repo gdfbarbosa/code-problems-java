@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RemoveDuplicatesFromSortedArrayTest {
-
     @Test
     public void removeDuplicatesSmallArray() {
         RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray =
