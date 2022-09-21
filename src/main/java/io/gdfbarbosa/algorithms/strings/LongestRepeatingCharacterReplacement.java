@@ -22,7 +22,6 @@ public class LongestRepeatingCharacterReplacement {
                 freq[s.charAt(left) - 'A']--;
                 left++;
             }
-
             max = Math.max(max, windowLength);
         }
 
