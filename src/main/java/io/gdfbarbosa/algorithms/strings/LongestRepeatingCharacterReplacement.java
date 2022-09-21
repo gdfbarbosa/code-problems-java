@@ -11,13 +11,17 @@ public class LongestRepeatingCharacterReplacement {
         int left = 0;
         int max = 0;
 
-        for (int right = 0; right < s.length(); right++) {
-            freq[s.charAt(right) - 'A']++;
+        int sLength = s.length();
+        for (int right = 0; right < sLength; right++) {
+            int charRight = s.charAt(right) - 'A';
+            freq[charRight]++;
             // calculate max frequent letter
-            mostFreqLetter = Math.max(mostFreqLetter, freq[s.charAt(right) - 'A']);
-            // window size, important to calculate chars replacement
+            mostFreqLetter = Math.max(mostFreqLetter, freq[charRight]);
+            // window size = (right - left + 1)
+            // windows size - mostFreqLetter
             while (right - left + 1 - mostFreqLetter > k) {
-                freq[s.charAt(left) - 'A']--;
+                int charLeft = s.charAt(left) - 'A';
+                freq[charLeft]--;
                 left++;
             }
             max = Math.max(max, right - left + 1);
