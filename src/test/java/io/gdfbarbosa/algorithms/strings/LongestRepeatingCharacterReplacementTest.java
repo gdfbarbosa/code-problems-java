@@ -16,4 +16,10 @@ public class LongestRepeatingCharacterReplacementTest {
         LongestRepeatingCharacterReplacement longestRepeatingCharacterReplacement = new LongestRepeatingCharacterReplacement();
         assertEquals(4, longestRepeatingCharacterReplacement.characterReplacement("AABABBA", 1));
     }
+
+    @Test
+    public void characterReplacement3() {
+        LongestRepeatingCharacterReplacement longestRepeatingCharacterReplacement = new LongestRepeatingCharacterReplacement();
+        assertEquals(4, longestRepeatingCharacterReplacement.characterReplacement("AABABBA", 1));
+    }
 }

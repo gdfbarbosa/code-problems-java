@@ -16,13 +16,11 @@ public class LongestRepeatingCharacterReplacement {
             // calculate max frequent letter
             mostFreqLetter = Math.max(mostFreqLetter, freq[s.charAt(right) - 'A']);
             // window size, important to calculate chars replacement
-            int windowLength = right - left + 1;
-            int lettersToChange = windowLength - mostFreqLetter;
-            if (lettersToChange > k) {
+            while (right - left + 1 - mostFreqLetter > k) {
                 freq[s.charAt(left) - 'A']--;
                 left++;
             }
-            max = Math.max(max, windowLength);
+            max = Math.max(max, right - left + 1);
         }
 
         return max;
