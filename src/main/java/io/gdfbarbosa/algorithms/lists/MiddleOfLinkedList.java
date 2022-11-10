@@ -5,18 +5,11 @@ package io.gdfbarbosa.algorithms.lists;
  */
 public class MiddleOfLinkedList {
     public ListNode middleNode(ListNode head) {
+        ListNode slow = head;
         ListNode fast = head;
-        ListNode slow = null;
-        // edge case
-        if (fast == null || fast.next == null) {
-            return fast;
-        }
-        // normal cases
         while (fast != null && fast.next != null) {
-            // move two pointers
+            slow = slow.next;
             fast = fast.next.next;
-            // move one pointer
-            slow = head = head.next;
         }
         return slow;
     }
