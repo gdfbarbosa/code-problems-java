@@ -6,4 +6,4 @@ It is intended for learning and researching.
 * [HackerRank](https://www.hackerrank.com/)
 * [TopCoder](https://www.topcoder.com/)
 * [LeetCode](https://leetcode.com/)
-* [GeeksForGeeks](https://geeksforgeeks.com/)
+* [GeeksForGeeks](https://geeksforgeeks.org/)
